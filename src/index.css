@@ -1,0 +1,76 @@
+body {
+	background: black;
+}
+
+/*battleship board display*/
+div#board {
+	position: relative;
+	margin: auto;
+}
+
+/*battleship message*/
+h1#messageArea {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: rgb(83, 175, 19);
+}
+
+/*battleship table*/
+table {
+	position: absolute;
+	/* left: 173px; */
+	left:0;
+	top: 98px;
+	border-spacing: 0;
+}
+
+/*battleship table rows*/
+tr {
+	height: 97px;
+}
+/*battleship table data cell*/
+td {
+	min-width: 96px;
+	min-height: 94px;
+	border: solid 1px white;
+}
+
+/*battleship form*/
+form {
+	position: absolute;
+	top: 25px;
+	right: 0;
+	padding: 10px;
+	background-color: rgb(83, 175, 19);
+	z-index: 100;
+}
+
+/*battleship form input*/
+form input {
+	background-color: rgb(152, 207, 113);
+	border-color: rgb(83, 175, 19);
+	font-size: 1em;
+}
+.form-control {
+	width: 70% !important;
+	margin-right: 5%;
+}
+/*hit or miss*/
+.hit {
+	background: url('./ship.svg') no-repeat center center;
+	background-size: 100% auto;
+}
+
+
+.row_indicatior {
+	color: white;
+	padding-right: 15px;
+	border: 0px;
+}
+
+.column_indicatior {
+	font-size: 36px;
+	color: white;
+	border: 0px;	
+}
