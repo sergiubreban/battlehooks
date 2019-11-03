@@ -11,8 +11,9 @@ div#board {
 /*battleship message*/
 h1#messageArea {
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 140px;
+	/* left: ; */
+	padding-left: 20px;
 	color: rgb(83, 175, 19);
 }
 
@@ -21,7 +22,7 @@ table {
 	position: absolute;
 	/* left: 173px; */
 	left:0;
-	top: 98px;
+	top: 238px;
 	border-spacing: 0;
 }
 
@@ -39,7 +40,7 @@ td {
 /*battleship form*/
 form {
 	position: absolute;
-	top: 25px;
+	top: 165px;
 	right: 0;
 	padding: 10px;
 	background-color: rgb(83, 175, 19);
@@ -73,4 +74,8 @@ form input {
 	font-size: 36px;
 	color: white;
 	border: 0px;	
+}
+
+.left {
+	float: left;
 }
